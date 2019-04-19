@@ -3,7 +3,7 @@
 
 ## 1. Project Summary
 
-This purpose of this project is to use music box use log data (16+GB) including information on songs searched,played and downloaded, timestamp on each activity, user profile, etc to predict user churn and build a recomender system. This project builds a demo for analyzing large user record data and construct prediction and recommerder models for business. 
+This purpose of this project is to use music box use log data (16+GB) including information on songs searched,played and downloaded, timestamp on each activity, user id, etc to predict user churn and build a recomender system. This project builds a demo for analyzing large user record data and construct prediction and recommerder models for business. 
 
 churn is one of the most important elements in the Key Performance Indicator (KPI) of a product or service. A full customer lifecycle analysis requires taking a look at retention rates in order to better understand the health of the business or product. In this project, churn is defined by inactivity in fixed 14 days window. It is predicted using the users' behavior pattern in a 30 day window before that 14 day window. In the churn predictioni model, features are generated from the log file, including the frequency, recency of events, total playing time, songs fully played.
 
