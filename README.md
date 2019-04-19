@@ -7,7 +7,7 @@ This purpose of this project is to use music box use log data (16+GB) including 
 
 churn is one of the most important elements in the Key Performance Indicator (KPI) of a product or service. A full customer lifecycle analysis requires taking a look at retention rates in order to better understand the health of the business or product. In this project, churn is defined by inactivity in fixed 14 days window. It is predicted using the users' behavior pattern in a 30 day window before that 14 day window. In the churn prediction model, features are generated from the log file, including the frequency, recency of events, total playing time, songs fully played.
 
-Machine learning models, such as Logistic Regression, Random forest, Gradient boosting are applied to predict the user churn.Receiver Operating Characteristic (ROC) curves are used to diagnostic test evaluation. Random forest predict the end churn with accuracy around 0.92 on the training and 0.91 on the testing data set.
+Machine learning models, such as Logistic Regression, Random forest, Gradient boosting are applied to predict the user churn.Receiver Operating Characteristic (ROC) curves are used to diagnostic test evaluation. Random forest predict the end churn with AUC around 0.92 on the training and 0.91 on the testing data set.
 
 Feature importance is evaluated in the Logistic Regression, the top 5 most import features that increase churn risk are: 
 'days_from_last_play','freq_S_last_1','freq_S_last_3','freq_P_last_1','freq_S_last_7'.
